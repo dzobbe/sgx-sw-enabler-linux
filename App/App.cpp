@@ -19,7 +19,7 @@ int SGX_CDECL main(int argc, char *argv[])
 	else {
 		switch (sgx_device_status) {
 			case SGX_ENABLED:
-			printf("Enabled\n");
+			printf("SGX device is enabled\n");
 			return 0;
 			case SGX_DISABLED_REBOOT_REQUIRED:
 			printf("SGX device has been enabled. Please reboot your machine.\n");
