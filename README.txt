@@ -1,7 +1,8 @@
 ------------------------------------
 Usage
 ------------------------------------
-1. Build the project with the prepared Makefile
-2. Execute the binary directly
+1. Install the Intel Linux SGX-SDK
+2. Build the project with the prepared Makefile
+3. Execute the binary directly
     $ ./app
-3. Reboot the machine
+4. Reboot the machine
